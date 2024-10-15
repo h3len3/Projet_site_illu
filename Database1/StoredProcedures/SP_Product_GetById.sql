@@ -1,6 +1,10 @@
 ﻿CREATE PROCEDURE [dbo].[SP_Product_GetById]
-	@param1 int = 0,
-	@param2 int
+	@id_product INT
 AS
-	SELECT @param1, @param2
-RETURN 0
+	SELECT [Id_Product],
+	       [Name_Product],
+	       [Description_Product],
+	       [Price_Product],
+	       [Name_Category]
+		FROM [Product]
+		WHERE [Id_Product] = @id_product

@@ -1,6 +1,10 @@
 ﻿CREATE PROCEDURE [dbo].[SP_Picture_Insert]
-	@param1 int = 0,
-	@param2 int
+	
+	@name_picture NVARCHAR(64),
+	@url_picture NVARCHAR(256),
+	@id_product INT	
 AS
-	SELECT @param1, @param2
-RETURN 0
+	INSERT INTO [Picture] ([Name_Picture],[Url_Picture], [Id_Product])
+		OUTPUT [inserted].[Id_Picture]
+		VALUES (@name_picture,@url_picture,@id_product)
+

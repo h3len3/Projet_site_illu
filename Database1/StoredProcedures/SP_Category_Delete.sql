@@ -1,6 +1,6 @@
 ﻿CREATE PROCEDURE [dbo].[SP_Category_Delete]
-	@param1 int = 0,
-	@param2 int
+	@id_category INT
+
 AS
-	SELECT @param1, @param2
-RETURN 0
+	DELETE FROM [Category]
+		WHERE [Id_Category] = @id_category

@@ -1,6 +1,9 @@
 ﻿CREATE PROCEDURE [dbo].[SP_Category_Update]
-	@param1 int = 0,
-	@param2 int
+	@id_category INT,
+	@name_category NVARCHAR(64)
 AS
-	SELECT @param1, @param2
-RETURN 0
+
+		UPDATE [Category] 
+			SET [Name_Category] = @name_category 
+			WHERE [Id_Category] = @id_category
+	

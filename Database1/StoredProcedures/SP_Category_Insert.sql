@@ -1,6 +1,8 @@
 ﻿CREATE PROCEDURE [dbo].[SP_Category_Insert]
-	@param1 int = 0,
-	@param2 int
+	@name_category NVARCHAR(64)
+
 AS
-	SELECT @param1, @param2
-RETURN 0
+	INSERT INTO [Category] ([Name_Category])
+		OUTPUT [inserted].[Id_Category]
+		VALUES (@name_category)
+

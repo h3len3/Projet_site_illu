@@ -1,6 +1,9 @@
 ﻿CREATE PROCEDURE [dbo].[SP_Category_GetByName]
-	@param1 int = 0,
-	@param2 int
+	@name_category NVARCHAR(64)
+
 AS
-	SELECT @param1, @param2
-RETURN 0
+	SELECT [Id_Category],
+	       [Name_Category]
+	     
+		FROM [Category]
+		WHERE [Name_Category] = @name_category

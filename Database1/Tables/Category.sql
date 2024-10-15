@@ -1,4 +1,5 @@
 ﻿CREATE TABLE [dbo].[Category]
 (
-	[Id] INT NOT NULL PRIMARY KEY
+    [Id_Category] INT IDENTITY NOT NULL PRIMARY KEY,
+	[Name_Category] NVARCHAR(64) NOT NULL
 )

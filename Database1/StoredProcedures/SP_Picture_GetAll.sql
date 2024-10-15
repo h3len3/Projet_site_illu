@@ -1,6 +1,11 @@
 ﻿CREATE PROCEDURE [dbo].[SP_Picture_GetAll]
-	@param1 int = 0,
-	@param2 int
+	
 AS
-	SELECT @param1, @param2
-RETURN 0
+	  SELECT [Id_Picture],
+	       [Name_Picture],
+	       [Url_Picture],
+	       [Id_Product]
+	       
+		   FROM [Picture]
+
+		 

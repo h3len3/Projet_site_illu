@@ -56,5 +56,30 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+    <Folder Include="Tables" />
+    <Folder Include="StoredProcedures" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Tables\Product.sql" />
+    <Build Include="Tables\Category.sql" />
+    <Build Include="Tables\Picture.sql" />
+    <Build Include="StoredProcedures\SP_Product_GetAll.sql" />
+    <Build Include="StoredProcedures\SP_Product_Insert.sql" />
+    <Build Include="StoredProcedures\SP_Product_Delete.sql" />
+    <Build Include="StoredProcedures\SP_Product_Update.sql" />
+    <Build Include="StoredProcedures\SP_Product_GetByCategory.sql" />
+    <Build Include="StoredProcedures\SP_Product_GetByName.sql" />
+    <Build Include="StoredProcedures\SP_Product_GetById.sql" />
+    <Build Include="StoredProcedures\SP_Category_GetAll.sql" />
+    <Build Include="StoredProcedures\SP_Category_GetByName.sql" />
+    <Build Include="StoredProcedures\SP_Category_GetById.sql" />
+    <Build Include="StoredProcedures\SP_Category_Insert.sql" />
+    <Build Include="StoredProcedures\SP_Category_Delete.sql" />
+    <Build Include="StoredProcedures\SP_Category_Update.sql" />
+    <Build Include="StoredProcedures\SP_Picture_GetAll.sql" />
+    <Build Include="StoredProcedures\SP_Picture_Insert.sql" />
+    <Build Include="StoredProcedures\SP_Picture_GetById.sql" />
+    <Build Include="StoredProcedures\SP_Picture_Delete.sql" />
+    <Build Include="StoredProcedures\SP_Picture_Update.sql" />
   </ItemGroup>
 </Project>
