@@ -1,0 +1,122 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "BLL_Projet_site_illu/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "DAL_Projet_site_illu": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BLL_Projet_site_illu.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BLL_Projet_site_illu.dll": {}
+        }
+      },
+      "DAL_Projet_site_illu/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/DAL_Projet_site_illu.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL_Projet_site_illu.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BLL_Projet_site_illu/1.0.0": {
+      "type": "project",
+      "path": "../BLL_Projet_site_illu/BLL_Projet_site_illu.csproj",
+      "msbuildProject": "../BLL_Projet_site_illu/BLL_Projet_site_illu.csproj"
+    },
+    "DAL_Projet_site_illu/1.0.0": {
+      "type": "project",
+      "path": "../DAL_Projet_site_illu/DAL_Projet_site_illu.csproj",
+      "msbuildProject": "../DAL_Projet_site_illu/DAL_Projet_site_illu.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "BLL_Projet_site_illu >= 1.0.0",
+      "DAL_Projet_site_illu >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\david\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\david\\source\\repos\\Projet_site_illu\\ASP_MVC_Projet_site_illu\\ASP_MVC_Projet_site_illu.csproj",
+      "projectName": "ASP_MVC_Projet_site_illu",
+      "projectPath": "C:\\Users\\david\\source\\repos\\Projet_site_illu\\ASP_MVC_Projet_site_illu\\ASP_MVC_Projet_site_illu.csproj",
+      "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\david\\source\\repos\\Projet_site_illu\\ASP_MVC_Projet_site_illu\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\david\\source\\repos\\Projet_site_illu\\BLL_Projet_site_illu\\BLL_Projet_site_illu.csproj": {
+              "projectPath": "C:\\Users\\david\\source\\repos\\Projet_site_illu\\BLL_Projet_site_illu\\BLL_Projet_site_illu.csproj"
+            },
+            "C:\\Users\\david\\source\\repos\\Projet_site_illu\\DAL_Projet_site_illu\\DAL_Projet_site_illu.csproj": {
+              "projectPath": "C:\\Users\\david\\source\\repos\\Projet_site_illu\\DAL_Projet_site_illu\\DAL_Projet_site_illu.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

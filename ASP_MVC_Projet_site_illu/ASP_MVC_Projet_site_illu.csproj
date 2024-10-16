@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BLL_Projet_site_illu\BLL_Projet_site_illu.csproj" />
+    <ProjectReference Include="..\DAL_Projet_site_illu\DAL_Projet_site_illu.csproj" />
+  </ItemGroup>
+
+</Project>
