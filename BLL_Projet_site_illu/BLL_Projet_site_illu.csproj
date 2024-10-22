@@ -8,6 +8,13 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DAL_Projet_site_illu\DAL_Projet_site_illu.csproj" />
+    <ProjectReference Include="..\Shared_Projet_site_illu\Shared_Projet_site_illu.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Entities\" />
+    <Folder Include="Mappers\" />
+    <Folder Include="Services\" />
   </ItemGroup>
 
 </Project>

@@ -9,6 +9,7 @@
   <ItemGroup>
     <ProjectReference Include="..\BLL_Projet_site_illu\BLL_Projet_site_illu.csproj" />
     <ProjectReference Include="..\DAL_Projet_site_illu\DAL_Projet_site_illu.csproj" />
+    <ProjectReference Include="..\Shared_Projet_site_illu\Shared_Projet_site_illu.csproj" />
   </ItemGroup>
 
 </Project>

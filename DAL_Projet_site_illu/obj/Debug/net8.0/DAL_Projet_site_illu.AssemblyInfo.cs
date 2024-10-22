@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DAL_Projet_site_illu")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eddd20485833747ae3ece46dee63752bb143831f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e5a21412bc316dad149c80971f2a83e9870296dd")]
 [assembly: System.Reflection.AssemblyProductAttribute("DAL_Projet_site_illu")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DAL_Projet_site_illu")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
