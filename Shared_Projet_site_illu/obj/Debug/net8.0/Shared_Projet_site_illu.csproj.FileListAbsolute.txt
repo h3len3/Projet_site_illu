@@ -1,0 +1,12 @@
+C:\Users\david\source\repos\Projet_site_illu\Shared_Projet_site_illu\bin\Debug\net8.0\Shared_Projet_site_illu.deps.json
+C:\Users\david\source\repos\Projet_site_illu\Shared_Projet_site_illu\bin\Debug\net8.0\Shared_Projet_site_illu.dll
+C:\Users\david\source\repos\Projet_site_illu\Shared_Projet_site_illu\bin\Debug\net8.0\Shared_Projet_site_illu.pdb
+C:\Users\david\source\repos\Projet_site_illu\Shared_Projet_site_illu\obj\Debug\net8.0\Shared_Projet_site_illu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david\source\repos\Projet_site_illu\Shared_Projet_site_illu\obj\Debug\net8.0\Shared_Projet_site_illu.AssemblyInfoInputs.cache
+C:\Users\david\source\repos\Projet_site_illu\Shared_Projet_site_illu\obj\Debug\net8.0\Shared_Projet_site_illu.AssemblyInfo.cs
+C:\Users\david\source\repos\Projet_site_illu\Shared_Projet_site_illu\obj\Debug\net8.0\Shared_Projet_site_illu.csproj.CoreCompileInputs.cache
+C:\Users\david\source\repos\Projet_site_illu\Shared_Projet_site_illu\obj\Debug\net8.0\Shared_Projet_site_illu.sourcelink.json
+C:\Users\david\source\repos\Projet_site_illu\Shared_Projet_site_illu\obj\Debug\net8.0\Shared_Projet_site_illu.dll
+C:\Users\david\source\repos\Projet_site_illu\Shared_Projet_site_illu\obj\Debug\net8.0\refint\Shared_Projet_site_illu.dll
+C:\Users\david\source\repos\Projet_site_illu\Shared_Projet_site_illu\obj\Debug\net8.0\Shared_Projet_site_illu.pdb
+C:\Users\david\source\repos\Projet_site_illu\Shared_Projet_site_illu\obj\Debug\net8.0\ref\Shared_Projet_site_illu.dll

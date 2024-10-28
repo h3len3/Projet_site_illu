@@ -1,4 +1,4 @@
-﻿using DAL_Projet_site_illu.Entities;
+﻿
 using DAL_Projet_site_illu.Services;
 using Microsoft.Extensions.Configuration;
 using Shared_Projet_site_illu.Repositories;
@@ -10,6 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using DAL_Projet_site_illu.Mappers;
+using DAL_Projet_site_illu.Entities;
 
 namespace DAL_Projet_site_illu.Services
 {

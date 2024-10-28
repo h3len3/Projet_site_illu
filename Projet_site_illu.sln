@@ -19,7 +19,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASP_MVC_Projet_site_illu", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{A7BE4F50-F9CE-40D0-8045-7FD48280D321}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared_Projet_site_illu", "Shared_Projet_site_illu\Shared_Projet_site_illu.csproj", "{346FE606-273A-4EFF-B525-6CDCF2C06D7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared_Projet_site_illu", "Shared_Projet_site_illu\Shared_Projet_site_illu.csproj", "{346FE606-273A-4EFF-B525-6CDCF2C06D7A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

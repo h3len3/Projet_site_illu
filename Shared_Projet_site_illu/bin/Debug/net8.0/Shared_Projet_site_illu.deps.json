@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Shared_Projet_site_illu/1.0.0": {
+        "runtime": {
+          "Shared_Projet_site_illu.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Shared_Projet_site_illu/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

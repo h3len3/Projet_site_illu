@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BLL_Projet_site_illu")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d6b7ded28f67a4d9f837496c7ac514e8048ab6a6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f1c5e8b27f09d38af3ec51e5d6feea954aa68fec")]
 [assembly: System.Reflection.AssemblyProductAttribute("BLL_Projet_site_illu")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BLL_Projet_site_illu")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

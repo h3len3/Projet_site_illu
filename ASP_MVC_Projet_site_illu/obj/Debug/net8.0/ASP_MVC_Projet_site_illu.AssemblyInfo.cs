@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ASP_MVC_Projet_site_illu")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e5a21412bc316dad149c80971f2a83e9870296dd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f1c5e8b27f09d38af3ec51e5d6feea954aa68fec")]
 [assembly: System.Reflection.AssemblyProductAttribute("ASP_MVC_Projet_site_illu")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ASP_MVC_Projet_site_illu")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

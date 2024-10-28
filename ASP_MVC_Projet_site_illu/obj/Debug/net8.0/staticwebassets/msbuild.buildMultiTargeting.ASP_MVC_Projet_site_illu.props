@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ASP_MVC_Projet_site_illu.props" />
+</Project>
