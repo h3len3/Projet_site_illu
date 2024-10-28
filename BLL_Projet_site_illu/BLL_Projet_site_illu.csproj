@@ -11,9 +11,4 @@
     <ProjectReference Include="..\Shared_Projet_site_illu\Shared_Projet_site_illu.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Mappers\" />
-    <Folder Include="Services\" />
-  </ItemGroup>
-
 </Project>
