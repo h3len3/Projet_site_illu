@@ -13,7 +13,7 @@ namespace ASP_MVC_Projet_site_illu.Models
         public string Description_Product { get; set; }
         [DisplayName("Prix (en €)")]
         public decimal Price_Product { get; set; }
-        [DisplayName("Eco Score")]
+        [DisplayName("Catégorie")]
         public string Name_Category { get; set; }
     }
 }

@@ -26,12 +26,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\david\source\repos\Projet_site_illu\ASP_MVC_Projet_site_illu
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/david/source/repos/Projet_site_illu/ASP_MVC_Projet_site_illu/Views/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/david/source/repos/Projet_site_illu/ASP_MVC_Projet_site_illu/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/david/source/repos/Projet_site_illu/ASP_MVC_Projet_site_illu/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/source/repos/Projet_site_illu/ASP_MVC_Projet_site_illu/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/david/source/repos/Projet_site_illu/ASP_MVC_Projet_site_illu/Views/Shared/Error.cshtml]

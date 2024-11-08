@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\ASP_MVC_Projet_site_illu.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\david\\source\\repos\\Projet_site_illu\\ASP_MVC_Projet_site_illu\\wwwroot\\css\\contact.css",
+      "PackagePath": "staticwebassets\\css\\contact.css"
+    },
+    {
       "Id": "C:\\Users\\david\\source\\repos\\Projet_site_illu\\ASP_MVC_Projet_site_illu\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

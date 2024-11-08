@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewData["Title"] = "contact";
+}
+<head>
+    
+    <link rel="stylesheet" href="~/css/contact.css" asp-append-version="true" />
+    
+</head>
+
+
+
+<form action="your_php_file_goes_here" id="myForm" method="post">
+    <input type="text" id="first_name" name="first_name" class="required" placeholder="Nom*">
+    <input type="text" id="last_name" name="last_name" class="required" placeholder="Prénom*">
+
+    <input type="text" id="email" name="email" class="required" placeholder="example@address.com*" />
+
+
+    <textarea id="message" name="message" rows="5" cols="30" placeholder="Votre message"></textarea>
+    <input type="submit" name="submit" id="submit" value="Envoyer">
+</form>
+<div id="#results"></div>
+<!-- <script src="" type="text/javascript"></script> -->

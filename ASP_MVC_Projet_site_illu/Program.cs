@@ -57,6 +57,14 @@ namespace ASP_MVC_Projet_site_illu
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
 
+            app.MapControllerRoute(
+                name: "creations",
+                pattern: "{controller=Product}/{action=Index}/{id?}");
+
+            app.MapControllerRoute(
+                name: "contact",
+                pattern: "{controller=Contact}/{action=Index}/{id?}");
+
             app.Run();
         }
     }

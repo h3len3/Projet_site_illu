@@ -1,7 +1,10 @@
-﻿using BLL_Projet_site_illu.Entities;
+﻿using ASP_MVC_Projet_site_illu.Handlers;
+using ASP_MVC_Projet_site_illu.Models;
+using BLL_Projet_site_illu.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Shared_Projet_site_illu.Repositories;
+using System.Diagnostics;
 
 namespace ASP_MVC_Projet_site_illu.Controllers
 {
@@ -15,16 +18,48 @@ namespace ASP_MVC_Projet_site_illu.Controllers
             _productRepository = productRepository;
         }
 
+
         // GET: ProductController
-        public ActionResult Index()
+
+        public IActionResult Index(string[]? selectedCateg)
         {
-            return View();
+            IEnumerable<ProductListItemViewModel> model;
+
+            if (selectedCateg != null && selectedCateg.Length > 0)
+            {
+                List<ProductListItemViewModel> categ = new List<ProductListItemViewModel>();
+                foreach (string categoryName in selectedCateg)
+                {
+                    categ.AddRange(_productRepository.GetByCategory(categoryName).Select(d => d.ToListItem()));
+                }
+                model = categ.Distinct();
+
+                ViewBag.filter = true;
+
+            }
+
+            else
+            {
+
+                model = _productRepository.Get().Select(d => d.ToListItem());
+                ViewBag.filter = false;
+            }
+
+            return View(model);
         }
 
         // GET: ProductController/Details/5
-        public ActionResult Details(int id)
+        public ActionResult DetailsProduct(int id)
         {
-            return View();
+            ProductDetailsViewModel model = _productRepository.Get(id).ToDetails();
+            return View(model);
+        }
+
+
+        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        public IActionResult Error()
+        {
+            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
         // GET: ProductController/Create
