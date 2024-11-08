@@ -22,6 +22,16 @@ namespace DAL_Projet_site_illu.Mappers
                 Name_Category = (string)record["Name_Category"]
             };
         }
+
+        public static Category ToCategory(this IDataRecord record)
+        {
+            if (record is null) return null;
+            return new Category()
+            {
+                Id_Category = (int)record["Id_Category"],
+                Name_Category = (string)record["Name_Category"]        
+            };
+        }
     }
 }
 

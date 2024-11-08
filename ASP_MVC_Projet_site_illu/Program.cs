@@ -30,6 +30,9 @@ namespace ASP_MVC_Projet_site_illu
             builder.Services.AddScoped<IProductRepository<BLL.Entities.Product>, BLL.Services.ProductService>();
             builder.Services.AddScoped<IProductRepository<DAL.Entities.Product>, DAL.Services.ProductService>();
 
+            builder.Services.AddScoped<DAL_Projet_site_illu.Services.CategoryService>();
+            builder.Services.AddScoped<BLL_Projet_site_illu.Services.CategoryService>();
+
 
             var app = builder.Build();
 

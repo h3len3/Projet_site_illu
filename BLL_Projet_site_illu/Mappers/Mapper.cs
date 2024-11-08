@@ -37,5 +37,25 @@ namespace BLL_Projet_site_illu.Mappers
         }
         #endregion
 
+        #region Category
+        public static BLL.Category ToBLL(this DAL.Category entity)
+        {
+            if (entity is null) return null;
+            return new BLL.Category(
+                entity.Id_Category,
+                entity.Name_Category);
+        }
+
+        public static DAL.Category ToDAL(this BLL.Category entity)
+        {
+            if (entity is null) return null;
+            return new DAL.Category()
+            {
+                Id_Category = entity.Id_Category,
+                Name_Category = entity.Name_Category
+            };
+        }
+        #endregion
+
     }
 }
