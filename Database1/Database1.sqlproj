@@ -58,6 +58,7 @@
     <Folder Include="Properties" />
     <Folder Include="Tables" />
     <Folder Include="StoredProcedures" />
+    <Folder Include="Script" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Product.sql" />
@@ -81,5 +82,8 @@
     <Build Include="StoredProcedures\SP_Picture_GetById.sql" />
     <Build Include="StoredProcedures\SP_Picture_Delete.sql" />
     <Build Include="StoredProcedures\SP_Picture_Update.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Script\Script.PostDeployment1.sql" />
   </ItemGroup>
 </Project>
