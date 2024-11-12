@@ -1,5 +1,7 @@
 ﻿@model IEnumerable<ASP_MVC_Projet_site_illu.Models.ProductListItemViewModel>
 
+   @inject BLL_Projet_site_illu.Services.CategoryService categoryService
+
     @{
     ViewData["Title"] = "créations";
     }
@@ -53,23 +55,28 @@
     <br />
     <br />
 
-    
-    
-    <h1>Recherchez des produits par catégorie : </h1>
-
+   
+    <h2>Recherchez des produits par catégorie(s) : </h2>
+    <h4>Cochez une ou plusieurs catégories, puis cliquer sur le bouton "rechercher"</h4>
     <form method="get" action="">
-        <h2> Catégories: </h2>
-        <!-- faire for each -->
-       
+        <h5> Catégories: </h5>
+        @foreach (string CategoryName in categoryService.Get())
+        {
+            <div>
+                <input id="chbx_@CategoryName" type="checkbox" name="selectedCateg" value="@CategoryName" />
+                <label for="chbx_@CategoryName">@CategoryName</label>
+            </div>
+        }
+        <br />
         <input type="submit" value="Rechercher">
     </form>
-
 
     <br />
 
     @if (ViewBag.filter)
-{
-    <div>
-        <a asp-action="Index">Revenir à la liste complète</a>
-    </div>
+    {
+        <div>
+            <a asp-action="Index">Revenir à la liste complète</a>
+        </div>
     }
+    
