@@ -22,9 +22,11 @@ EXEC SP_Product_Insert 'Carte - fond vert - motifs fleuris', 'Carte - fond vert 
 EXEC SP_Product_Insert 'Carnet bleu', 'Carnet bleu, 100 pages', 11, 'Carnet';
 EXEC SP_Product_Insert 'Marque-pages - fond vert - motif chat', 'Marque-pages - fond vert - motif chat - 10cm x 3cm', 4, 'Marque-pages';
 
-/* DECLARE @today DATE = CONVERT(DATE,GETDATE()); */
+/* DECLARE @today DATE = CONVERT(DATE,GETDATE()) */
 
 /* EXEC SP_Order_Insert @today; */
+
+/* EXEC SP_OrderProduct_Insert; */
 
 
 

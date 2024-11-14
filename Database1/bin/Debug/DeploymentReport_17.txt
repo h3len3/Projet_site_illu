@@ -1,0 +1,47 @@
+﻿** Met en surbrillance
+     Tables qui seront recréées avec les données migrées
+       Aucun
+     Index ordonnés en clusters à supprimer
+       Aucun
+     Index ordonnés en clusters à créer.
+       Aucun
+     Problèmes de données possibles
+       Aucun
+
+** Actions de l'utilisateur
+     Créer
+       [dbo].[Category] (Table)
+       [dbo].[Order] (Table)
+       [dbo].[OrderProduct] (Table)
+       [dbo].[Picture] (Table)
+       [dbo].[Product] (Table)
+       [dbo].[FK_OrderProduct_Order] (Clé étrangère)
+       [dbo].[FK_OrderProduct_Product] (Clé étrangère)
+       [dbo].[FK_Media_Product] (Clé étrangère)
+       [dbo].[FK_Product_Category] (Clé étrangère)
+       [dbo].[SP_Category_Delete] (Procédure)
+       [dbo].[SP_Category_GetAll] (Procédure)
+       [dbo].[SP_Category_GetById] (Procédure)
+       [dbo].[SP_Category_GetByName] (Procédure)
+       [dbo].[SP_Category_Insert] (Procédure)
+       [dbo].[SP_Category_Update] (Procédure)
+       [dbo].[SP_Order_Delete] (Procédure)
+       [dbo].[SP_Order_GetAll] (Procédure)
+       [dbo].[SP_Order_GetById] (Procédure)
+       [dbo].[SP_Order_Insert] (Procédure)
+       [dbo].[SP_Order_Update] (Procédure)
+       [dbo].[SP_OrderProduct_Insert] (Procédure)
+       [dbo].[SP_Picture_Delete] (Procédure)
+       [dbo].[SP_Picture_GetAll] (Procédure)
+       [dbo].[SP_Picture_GetById] (Procédure)
+       [dbo].[SP_Picture_Insert] (Procédure)
+       [dbo].[SP_Picture_Update] (Procédure)
+       [dbo].[SP_Product_Delete] (Procédure)
+       [dbo].[SP_Product_GetAll] (Procédure)
+       [dbo].[SP_Product_GetByCategory] (Procédure)
+       [dbo].[SP_Product_GetById] (Procédure)
+       [dbo].[SP_Product_GetByName] (Procédure)
+       [dbo].[SP_Product_Insert] (Procédure)
+       [dbo].[SP_Product_Update] (Procédure)
+
+** Actions de support

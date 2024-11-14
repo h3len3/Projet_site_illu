@@ -83,7 +83,13 @@
     <Build Include="StoredProcedures\SP_Picture_Delete.sql" />
     <Build Include="StoredProcedures\SP_Picture_Update.sql" />
     <Build Include="Tables\Order.sql" />
-    <Build Include="Tables\Order_Product.sql" />
+    <Build Include="Tables\OrderProduct.sql" />
+    <Build Include="StoredProcedures\SP_Order_Insert.sql" />
+    <Build Include="StoredProcedures\SP_Order_Delete.sql" />
+    <Build Include="StoredProcedures\SP_Order_GetAll.sql" />
+    <Build Include="StoredProcedures\SP_Order_GetById.sql" />
+    <Build Include="StoredProcedures\SP_Order_Update.sql" />
+    <Build Include="StoredProcedures\SP_OrderProduct_Insert.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Script\Script.PostDeployment1.sql" />
