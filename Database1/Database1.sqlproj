@@ -82,6 +82,8 @@
     <Build Include="StoredProcedures\SP_Picture_GetById.sql" />
     <Build Include="StoredProcedures\SP_Picture_Delete.sql" />
     <Build Include="StoredProcedures\SP_Picture_Update.sql" />
+    <Build Include="Tables\Order.sql" />
+    <Build Include="Tables\Order_Product.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Script\Script.PostDeployment1.sql" />
